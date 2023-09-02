@@ -544,8 +544,8 @@ const Chat = () => {
                                     className={styles.chatIcon}
                                     aria-hidden="true"
                                 />
-                                <h1 className={styles.chatEmptyStateTitle}>Welcome to eCap's Internal ChatGPT!</h1>
-                                <h2 className={styles.chatEmptyStateSubtitle}>Feel free to use this AI Chatbot to answer questions, summarize meeting transcripts, and more! Please be advised that not all AI outputs are 100% accurate and this model had a training year cutoff of 2021</h2>
+                                <h1 className={styles.chatEmptyStateTitle}>Start chatting!</h1>
+                                <h2 className={styles.chatEmptyStateSubtitle}>Feel free to use this AI Chatbot to answer questions, summarize meeting transcripts, and more!</h2>
                             </Stack>
                         ) : (
                             <div className={styles.chatMessageStream} style={{ marginBottom: isLoading ? "40px" : "0px"}} role="log">
