@@ -545,7 +545,7 @@ const Chat = () => {
                                     aria-hidden="true"
                                 />
                                 <h1 className={styles.chatEmptyStateTitle}>Start chatting</h1>
-                                <h2 className={styles.chatEmptyStateSubtitle}>This chatbot is configured to answer your questions</h2>
+                                <h2 className={styles.chatEmptyStateSubtitle}>Welcome to eCap's Internal ChatGPT! Feel free to use this AI Chatbot to answer questions, summarize meeting transcripts, and more! Please be advised that not all AI outputs are 100% accurate and this model had a training year cutoff of 2021</h2>
                             </Stack>
                         ) : (
                             <div className={styles.chatMessageStream} style={{ marginBottom: isLoading ? "40px" : "0px"}} role="log">
