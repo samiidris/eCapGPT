@@ -8,7 +8,7 @@ import rehypeRaw from "rehype-raw";
 import uuid from 'react-uuid';
 
 import styles from "./Chat.module.css";
-import Azure from "../../assets/eCap.svg";
+import Azure from "../../assets/eCap2.svg";
 
 import {
     ChatMessage,
